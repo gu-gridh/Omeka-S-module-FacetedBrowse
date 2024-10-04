@@ -92,12 +92,12 @@ class FacetedBrowse extends AbstractPlugin
         }
         if (!$sortings) {
             $sortings = [
+//                [
+//                    'label' => $controller->translate('Created'),
+//                    'value' => 'created',
+//                ],
                 [
-                    'label' => $controller->translate('Created'),
-                    'value' => 'created',
-                ],
-                [
-                    'label' => $controller->translate('Title'),
+                    'label' => 'Titel',
                     'value' => 'title',
                 ],
             ];
