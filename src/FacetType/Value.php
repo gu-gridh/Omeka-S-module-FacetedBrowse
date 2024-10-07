@@ -186,7 +186,7 @@ class Value implements FacetTypeInterface
             $singleSelect = $this->formElements->get(LaminasElement\Select::class);
             $singleSelect->setName(sprintf('value_%s', $facet->id()));
             $singleSelect->setValueOptions($valueOptions);
-            $singleSelect->setEmptyOption('Select one…');
+            $singleSelect->setEmptyOption('Välj en..');
             $singleSelect->setAttribute('class', 'value');
             $singleSelect->setAttribute('style', 'width: 90%;');
         }
